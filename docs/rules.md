@@ -114,6 +114,19 @@ A -->|comment| B
 A -->|"comment"| B
 ```
 
+### line break in arrow
+
+**Bad**
+```
+A
+--> B
+```
+
+**Good**
+```
+A --> B
+```
+
 ### chained arrow
 
 **Bad**
